@@ -1,0 +1,129 @@
+#page1.gwd-play-animation .gwd-motion-path-mnba-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["-82.58px", "-64.98px", "-73.51px", "-61.24px", "-64.44px", "-57.51px", "-55.38px", "-53.78px"], "startTimeMs": 0, "endTimeMs": 100, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-55.38px", "-53.78px", "-48.18px", "-51.38px", "-40.98px", "-48.98px", "-33.78px", "-46.58px"], "startTimeMs": 100, "endTimeMs": 300, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-33.78px", "-46.58px", "-24.98px", "-45.24px", "-16.18px", "-43.91px", "-7.38px", "-42.58px"], "startTimeMs": 300, "endTimeMs": 500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-7.38px", "-42.58px", "1.42px", "-43.38px", "10.22px", "-44.18px", "19.02px", "-44.98px"], "startTimeMs": 500, "endTimeMs": 700, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["19.02px", "-44.98px", "27.02px", "-48.18px", "35.02px", "-51.38px", "43.02px", "-54.58px"], "startTimeMs": 700, "endTimeMs": 900, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["43.02px", "-54.58px", "52.65px", "-61.03px", "46.69px", "-61.4px", "49.42px", "-74.58px"], "startTimeMs": 900, "endTimeMs": 1100, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["49.42px", "-74.58px", "50.34px", "-77.85px", "48.07px", "-94.72px", "48.99px", "-97.99px"], "startTimeMs": 1100, "endTimeMs": 1300, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["48.99px", "-97.99px", "48.99px", "-102.52px", "48.99px", "-107.06px", "48.99px", "-111.59px"], "startTimeMs": 1300, "endTimeMs": 1400, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["48.99px", "-111.59px", "55.92px", "-114.56px", "96.09px", "-118.82px", "103.02px", "-121.78px"], "startTimeMs": 1400, "endTimeMs": 1500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["103.02px", "-121.78px", "91.95px", "-121.35px", "155.07px", "-121.93px", "143.99px", "-121.5px"], "startTimeMs": 1500, "endTimeMs": 1800, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 1.8s linear 0s infinite normal forwards running gwd-motion-path-mnba-keys-x;
+  transform: translate3d(-82.58px, 0px, 0px);
+}
+@keyframes gwd-motion-path-mnba-keys-x {
+  0% {
+    transform: translate3d(-82.58px, 0px, 0px);
+  }
+  5.56% {
+    transform: translate3d(-55.38px, 0px, 0px);
+  }
+  16.67% {
+    transform: translate3d(-33.78px, 0px, 0px);
+  }
+  27.78% {
+    transform: translate3d(-7.38px, 0px, 0px);
+  }
+  38.89% {
+    transform: translate3d(19.02px, 0px, 0px);
+  }
+  50% {
+    transform: translate3d(43.02px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4671, 1.3453, 0.1853, 0.6328);
+  }
+  61.11% {
+    transform: translate3d(49.42px, 0px, 0px);
+  }
+  72.22% {
+    transform: translate3d(48.99px, 0px, 0px);
+  }
+  77.78% {
+    transform: translate3d(48.99px, 0px, 0px);
+  }
+  83.33% {
+    transform: translate3d(103.02px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.0818, -0.3017, 0.85, 0.9068);
+  }
+  89.58% {
+    transform: translate3d(117.73px, 0px, 0px);
+  }
+  99.58% {
+    transform: translate3d(145.15px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(143.99px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-mnba-anim-y {
+  animation: 1.8s linear 0s infinite normal forwards running gwd-motion-path-mnba-keys-y;
+  transform: translate3d(0px, -64.98px, 0px);
+}
+@keyframes gwd-motion-path-mnba-keys-y {
+  0% {
+    transform: translate3d(0px, -64.98px, 0px);
+  }
+  5.56% {
+    transform: translate3d(0px, -53.78px, 0px);
+  }
+  16.67% {
+    transform: translate3d(0px, -46.58px, 0px);
+  }
+  27.78% {
+    transform: translate3d(0px, -42.58px, 0px);
+  }
+  38.89% {
+    transform: translate3d(0px, -44.98px, 0px);
+  }
+  50% {
+    transform: translate3d(0px, -54.58px, 0px);
+    animation-timing-function: cubic-bezier(0.4025, 0.2377, 0.6723, 0.6721);
+  }
+  61.11% {
+    transform: translate3d(0px, -74.58px, 0px);
+  }
+  72.22% {
+    transform: translate3d(0px, -97.99px, 0px);
+  }
+  77.78% {
+    transform: translate3d(0px, -111.59px, 0px);
+  }
+  83.33% {
+    transform: translate3d(0px, -121.78px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, -121.5px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
